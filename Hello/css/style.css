@@ -1,0 +1,98 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body {  color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.wrapper { width:1600px; margin: 0 auto; overflow: hidden; }
+.header {background-image:url("../images/topbg.png");  height:690px; margin: 0 auto; padding: 150px 0; color:#fff; text-align: center; }
+.header h1 {font-size: 62px; line-height: 150px;}
+.header h2 {font-size: 20px; line-height: 32px; width: 700px; margin:50px auto 0; opacity: 0.70; }
+.header .login {width: 870px;  margin: 100px auto; padding: 50px; border: 1px solid #827d74;}
+.header .login h3 {font-size: 16px; line-height: 28px; letter-spacing:1.5px; text-transform: uppercase; }
+.header .login h4 {font-size: 12px; line-height: 28px; letter-spacing:1.5px; text-transform: uppercase; opacity: 0.30; }
+.header .login .goto { margin-top: 45px;}
+.header .login .inp1 {width: 250px; height: 48px; padding: 0 20px; margin: 0px 15px; border: 1px solid #827d74; background: none; color: #fff;}
+.header .login .but1 {width: 125px; height: 50px; background-color: #fff; border-radius: 2px; border: none; margin: 0 15px; text-transform: uppercase;}
+.layer { border-bottom: 1px solid #ddd;}
+.layer .main {width:970px; margin: auto; padding: 80px 0;}
+.layer .main h1 {font-size: 42px; line-height: 52px; text-align: center; margin: 30px 0 75px;}
+.layer .main h2 {font-size: 14px; line-height: 28px; text-align: center;letter-spacing:1.5px; text-transform: uppercase;}
+.layer .main ul {}
+.layer .main ul li {float: left; display: block; width: 480px; position: relative; }
+.layer .main ul li:nth-child(1) {right:50px; margin-bottom: 75px;}
+.layer .main ul li:nth-child(2) {right:-80px; margin-bottom: 75px;}
+.layer .main ul li:nth-child(3) {right: 50px;}
+.layer .main ul li:nth-child(4) {right: -80px;}
+.layer .main ul li .left { float: left; width: 50px; text-align: center;}
+.layer .main ul li .right { margin-left: 75px;}
+.layer .main ul li .right h3 {font-size: 20x; font-weight: bold; }
+.layer .main ul li .right p {font-size: 16px; line-height: 26px;}
+.layer2 { background-image:url("../images/ly2bg.png"); height: 800px;}
+.layer2 .main {width:970px; margin: auto; padding: 100px 0;}
+.layer2 .left {float: left; color: #fff; width: 520px;}
+.layer2 .right {float: right; margin-right: -510px;}
+.layer2 .left h1 {font-size: 42px; line-height: 52px; width: 450px; margin-top: 60px; }
+.layer2 .left p {font-size: 18px;  line-height: 28px; width: 450px; opacity: 0.7; margin: 90px 0 50px;}
+.layer2 .buttons {}
+.layer2 .buttons .button1 {float:left;width: 238px; height: 58px; line-height: 60px; text-align: center; border: 1px solid #d1d1d1; border-radius:2px; text-transform: uppercase;}
+.layer2 .buttons .button1 a {display:block;width: 240px; height: 60px; cursor: pointer; color: #fff; }
+.layer2 .buttons .button1 a:hover { color: #333; background-color: #fff; text-decoration: none;}
+.layer .what { margin-bottom: 40px;}
+.layer .what dl {float: left; width: 270px; text-align: center;}
+.layer .what dl dt {margin-bottom: 40px;}
+.layer .what dl dd { font-size: 16px; line-height: 26px;}
+.layer .what2 { margin: 50px 0;}
+.layer .what2 .img1 {float: left; width: 570px;}
+.layer .what2 .info1 { width: 330px; margin-left:660px; padding-top: 60px;}
+.layer .what2 .img2 {float: left; width: 570px;}
+.layer .what2 .info2 {float: left; width: 370px; margin-right: 30px; padding-top: 60px;}
+.layer .what2 h3 {font-size: 20x; line-height: 32px; font-weight: bold; margin-bottom: 30px; }
+.layer .what2 p{font-size: 16px; line-height: 28px; color: #666；}
+.layer .main2 {width:970px; margin: auto; padding: 80px 0;}
+.layer .main2 h1 {font-size: 42px; line-height: 52px; font-weight: bold; text-align: center; margin-bottom: 30px; }
+.layer .main2 h2 {font-size: 18px; line-height: 28px; text-align: center;  margin-bottom: 60px; opacity: 0.7; }
+.layer .main2 .what3 ul {}
+.layer .main2 .what3 ul li {float: left; width:470px; height: 340px; cursor: pointer; }
+.layer .main2 .what3 ul li:nth-child(1) {margin-bottom: 30px;}
+.layer .main2 .what3 ul li:nth-child(2) {float: right;margin-bottom: 30px;}
+.layer .main2 .what3 ul li:nth-child(4) {float: right;}
+.infos {width:470px; height: 140px; color: #fff; padding:100px 0;background: url("../images/zzbg.png"); display: none; position: relative; bottom:343px; text-align: center;}
+.zz1:hover .infos { display: block;}
+.zz2:hover .infos { display: block;}
+.zz3:hover .infos { display: block;}
+.zz4:hover .infos { display: block;}
+.infos .name {font-size: 20px; line-height: 40px;}
+.infos .intro {font-size: 12px; line-height: 30px;text-transform: uppercase;}
+.infos .social { margin-top: 20px;}
+.infos .social img { margin: 0 15px;}
+.email {float:left; width: 370px; height: 460px; padding: 50px; border: 1px solid #ccc; border-radius: 10px;}
+.email p {font-size: 16px; line-height: 32px; text-align: center;letter-spacing:1.5px; text-transform: uppercase; margin-bottom: 30px;}
+.email .einput {width: 330px; height: 50px; padding: 0 20px; margin: 15px 0px;  border: 1px solid #bbb; background: none; }
+.email .earea {width: 330px; height: 74px; padding:  20px; margin: 15px 0px;  border: 1px solid #bbb; background: none; }
+.email .sbut {width: 370px; height: 50px; background-color: #141414; border-radius: 2px; border: none;  text-transform: uppercase; color: #fff; margin-top: 10px; cursor: pointer;}
+.contacts {float: right; width: 370px; padding-top: 90px;}
+.contacts h4 {font-size: 42px; line-height: 52px; margin-bottom: 25px;}
+.contacts p {font-size: 16px; line-height: 26px; color: #999; margin-bottom:60px;}
+.contacts ol {}
+.contacts ol li {font-size: 16px; line-height: 26px; margin-bottom: 30px;}
+.contacts ol li span {display: inline-block;float: left; margin-right: 30px;}
+.footer {background-color: #141414;}
+.footer .main { width: 1170px; margin: auto; padding: 80px 0; color: #fff; font-size: 16px; line-height: 46px;}
+.footer .main a {color: #fff; opacity: 0.7;}
+.footer .main ul {float: left;}
+.footer .main .au {margin: 0 165px;}
+.footer .main .enjoy { float: right; width: 270px;}
+.footer .main .enjoy h1 {line-height: 28px; text-transform: uppercase; margin-bottom: 10px;}
+.footer .main .enjoy p {line-height:28px; opacity: 0.7; margin-bottom: 50px; }
+.footer .main .enjoy p img {margin-right: 25px;}
