@@ -1,0 +1,79 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body {  color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+body,html {height: 100%;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.wrapper {  margin: auto; padding: 0; }
+.wrapper,.menu,.primary,.secondary {height: 100%; overflow: hidden;}
+.menu { float:left; width: 350px;height: 100%;}
+.menu .primary {float: left; width: 100px; background-color: #1d2531; }
+.menu .primary ul li { text-align: center; margin-top: 20px;}
+.menu .primary ul li:hover {background: url("../images/hoverbg.png") no-repeat 0 center;}
+.menu .primary .bottom {position: absolute;height: 16px; width: 62px; padding: 0 17px; bottom:20px;}
+.menu .primary .bottom span {margin: 0 5px;}
+.menu .secondary {float:right; width: 250px;background-color: #222c3c;}
+.menu .secondary ul {margin: 20px 0;}
+.menu .secondary ul li { height: 36px; line-height: 36px;}
+.menu .secondary ul li a{display:block; color: #b7c0cd; padding:0 30px; }
+.menu .secondary ul li a:hover{background: url("../images/hoverbg.png") no-repeat 0 center; color: #fff; text-decoration: none;}
+.menu .secondary ul li:first-child {color: #5b6779;  padding:0 30px; }
+.menu .secondary ul li em {display:inline-block; width:18px;text-align: center; margin-right: 10px;}
+.menu .secondary ul li em img {vertical-align: middle;}
+.menu .secondary .not1 { float: right;}
+.menu .secondary .not1 a{ padding: 0;}
+.menu .secondary .not1 a:hover{background: none; }
+.menu .secondary .not2 {float: right; width: 32px; height: 24px;line-height:24px; text-align: center; margin:6px 0; background-image: linear-gradient(to bottom, #1991eb, #1991eb); border-radius: 12px;}
+.menu .secondary span.not2  {color: #fff;}
+.menu .secondary span.not3 {float: right; width: 24px; height: 24px;line-height:24px; text-align: center; margin:6px 0; background-image: linear-gradient(to bottom, #f45438, #cb270a); border-radius: 12px; color: #fff;}
+.menu .secondary .line { margin:0 30px;border-bottom: 1px solid #2a3547;}
+.menu .secondary .bottom { position: absolute; bottom:0; padding: 30px;}
+.menu .secondary .bottom div { font-size:12px;line-height: 40px; color: #fff;}
+.menu .secondary .bottom .base {position: absolute; background-color: #475364;width:190px; height: 4px; border-radius: 2px;}
+.menu .secondary .bottom .fill {position: relative; background-image: linear-gradient(to right, #7f5be6, #9d8fe3); height: 4px; border-radius: 2px; }
+.chat { margin-left: 350px;  }
+.chat .top {height: 80px; padding: 0 30px; border-bottom: 1px solid #e6e9ec; }
+.chat .top .mes {float: left;line-height: 80px; font-size:24px; }
+.chat .top .header {float: right; padding: 15px 0;}
+.chat .top .header .photo { float: left;}
+.chat .top .header .info {float: left; margin-left: 10px; padding: 5px 0;}
+.chat .top .header .info h1 {font-size: 16px; line-height: 20px; color: #2399f1;}
+.chat .top .header .info h2 {font-size: 14px; line-height: 20px; color: #b5b5b5;}
+.chat .top .header .dropdown {float: left; margin-left: 45px;padding: 15px 0; }
+.chat .bottom {height: 100%;}
+.chat .bottom .chats {float: left; width: 399px;height: 100%; border-right: 1px solid #e6e9ec; }
+.chat .bottom .chats .search { height: 36px; padding: 17px 0 17px 12px;border-bottom: 1px solid #e6e9ec;}
+.chat .bottom .chats .search .search_input { width: 340px; height: 34px; line-height: 34px; border:  1px solid #e6e9ec; border-radius:4px; padding: 0 50px 0 10px;position: absolute; }
+.chat .bottom .chats .search .searchicon {position: relative; right: -320px; top:8px; z-index: 9999;}
+.chat .bottom .chats .chat_list {}
+.chat_list ul {}
+.chat_list ul li {display: block; padding: 15px 20px 20px 30px;border-bottom: 1px solid #e6e9ec;border-left:3px solid #fff; cursor: pointer; }
+.chat_list ul li:hover {  border-left:3px solid #2399f1;}
+.chat_list .head {}
+.chat_list .head .photo {float: left;}
+.chat_list .head .info {float: left; margin-left: 10px; padding: 3px 0;}
+.chat_list .head .info h1 {font-size: 16px; line-height: 20px;}
+.chat_list .head .info h2 { line-height: 20px; color: #b5b5b5}
+.chat_list .head .ago {float: right; color: #7f8fa4;}
+.chat_list .content { font-size: 12px; line-height: 20px;}
+.chat_list .content span { float: right; display: block; width: 24px; height: 24px;line-height:24px; text-align: center; margin:6px 0; background-image: linear-gradient(to bottom, #1991eb, #2ea1f8); border-radius: 12px; color: #fff;}
+.new_chat {color: #2399f1; font-weight: bold;}
+.chat .openchat { margin-left: 400px; }
+.chat .openchat .sbar {height: 70px; width: 100%; padding: 0 30px; border-bottom: 1px solid #e6e9ec;}
+.chat .openchat .sbar .profile_name {font-size: 18px; line-height: 70px; float: left; }
+.chat .openchat .sbar .profile_name .tools { float: right; padding: 18px 0px;}
+.chat .openchat .sbar .profile_name .tools ul { height:30px; width: 108px; border: 1px solid #ced0da; border-radius: 4px;  background-image: linear-gradient(to bottom, #ffffff, #f1f3f7);}
+.chat .openchat .sbar .profile_name .tools ul li {float: left; height: 30px; line-height: 35px; width: 35px; text-align: center; cursor: pointer;}
+.chat .openchat .sbar .profile_name .tools ul li:nth-child(2) { border-left:1px solid #ced0da; border-right:1px solid #ced0da; }
+.chat .openchat .sbar .pages {float: right; width: 30%;}
+.chat .openchat .sbar .pages .arrows {float: right;}
