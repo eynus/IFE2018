@@ -9,15 +9,15 @@ img { border:none; }
 ol,ul,li { list-style:none; }
 input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
 table { border-collapse:collapse; }
-html {overflow-y: scroll;}
+html {overflow-y: hidden;}
 body,html {height: 100%;}
 .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
 .clearfix { *zoom:1; }
 .clear {clear: both;}
 
 .wrapper {  margin: auto; padding: 0; }
-.wrapper,.menu,.primary,.secondary {height: 100%; overflow: hidden;}
-.menu { float:left; width: 350px;height: 100%;}
+.wrapper,.menu,.primary,.secondary {height: 100%; }
+.menu { float:left; width: 350px;height: 100%; }
 .menu .primary {float: left; width: 100px; background-color: #1d2531; }
 .menu .primary ul li { text-align: center; margin-top: 20px;}
 .menu .primary ul li:hover {background: url("../images/hoverbg.png") no-repeat 0 center;}
@@ -51,13 +51,13 @@ body,html {height: 100%;}
 .chat .top .header .info h1 {font-size: 16px; line-height: 20px; color: #2399f1;}
 .chat .top .header .info h2 {font-size: 14px; line-height: 20px; color: #b5b5b5;}
 .chat .top .header .dropdown {float: left; margin-left: 45px;padding: 15px 0; }
-.chat .bottom {height: 100%;}
-.chat .bottom .chats {float: left; width: 399px;height: 100%; border-right: 1px solid #e6e9ec;  }
-.chat .bottom .chats .search { height: 36px; padding: 17px 0 17px 12px;border-bottom: 1px solid #e6e9ec;}
+.chat .bottom {height: 100%;  }
+.chat .bottom .chats {float: left; width: 399px;height: 100%; border-right: 1px solid #e6e9ec; }
+.chat .bottom .chats .search { height: 36px; padding: 17px 0 17px 12px;border-bottom: 1px solid #e6e9ec; }
 .chat .bottom .chats .search .search_input { width: 340px; height: 34px; line-height: 34px; border:  1px solid #e6e9ec; border-radius:4px; padding: 0 50px 0 10px;position: absolute; }
 .chat .bottom .chats .search .searchicon {position: relative; right: -320px; top:8px; z-index: 9999;}
-.chat .bottom .chats .chat_list { }
-.chat_list ul {}
+.chat .bottom .chats .chat_list {  }
+.chat_list ul { }
 .chat_list ul li {display: block; padding: 15px 20px 20px 30px;border-bottom: 1px solid #e6e9ec;border-left:3px solid #fff; cursor: pointer; }
 .chat_list ul li:hover {  border-left:3px solid #2399f1;}
 .chat_list .head {}
